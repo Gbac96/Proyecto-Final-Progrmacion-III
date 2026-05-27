@@ -1,12 +1,12 @@
 # Proyecto-Final-Progrmacion-III
-# 🎮 Tik Tak Toe con Aprendizaje Supervisado
+# Tik Tak Toe con Aprendizaje Supervisado
 
 
-## 📋 Descripción del Proyecto
+##  Descripción del Proyecto
 
 Este proyecto implementa el juego clásico **Tik Tak Toe (Totito)** con un sistema de **aprendizaje supervisado**. La Inteligencia Artificial aprende de cada partida, ajustando sus pesos para mejorar su estrategia con el tiempo. El sistema utiliza estructuras de datos propias (sin usar listas/arrays nativas) y almacena el historial en un **Árbol B** configurable.
 
-### 🎯 Características Principales
+###  Características Principales
 
 - ✅ **Interfaz gráfica moderna** con Tkinter
 - ✅ **IA con aprendizaje continuo** (ajusta pesos después de cada partida)
@@ -19,7 +19,7 @@ Este proyecto implementa el juego clásico **Tik Tak Toe (Totito)** con un siste
 
 ---
 
-## 👥 Integrantes del Grupo
+##  Integrantes del Grupo
 
 | Nombre         | Carnet       | Sección |
 |----------------|--------------|---------|
@@ -35,7 +35,7 @@ Este proyecto implementa el juego clásico **Tik Tak Toe (Totito)** con un siste
 
 ---
 
-## 📦 Requisitos del Sistema
+##  Requisitos del Sistema
 
 ### Software Necesario
 
