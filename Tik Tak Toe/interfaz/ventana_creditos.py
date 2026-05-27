@@ -71,7 +71,7 @@ class VentanaCreditos:
         
         # Lista de integrantes
         integrantes = [
-            ("Nelson Ramirez", "9490-23-17-12237", "100%"),
+            ("Nelson Ramirez", "9490-23-12237", "100%"),
             ("Moises Galicia", "9490-23-9112", "100%"),
             ("Gerson Bac",  "9490-17-22584","100% ")
         ]
