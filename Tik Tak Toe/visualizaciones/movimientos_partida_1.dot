@@ -1,0 +1,35 @@
+digraph MovimientosConPesos {
+    rankdir=TB;
+    node [shape=box, style=rounded];
+
+    estado_0 [label="_ _ _\n_ X _\n_ _ _"];
+    estado_1 [label="O _ _\n_ X _\n_ _ _"];
+    estado_0 -> estado_1 [label="Pos 0\nPeso: 0.50", color="orange", penwidth=2.0];
+    estado_2 [label="_ O _\n_ X _\n_ _ _"];
+    estado_0 -> estado_2 [label="Pos 1\nPeso: 1.00", color="blue", penwidth=2.0];
+    estado_3 [label="_ _ O\n_ X _\n_ _ _"];
+    estado_0 -> estado_3 [label="Pos 2\nPeso: 1.00", color="blue", penwidth=2.0];
+    estado_4 [label="_ _ _\nO X _\n_ _ _"];
+    estado_0 -> estado_4 [label="Pos 3\nPeso: 1.00", color="blue", penwidth=2.0];
+    estado_5 [label="_ _ _\n_ X O\n_ _ _"];
+    estado_0 -> estado_5 [label="Pos 5\nPeso: 1.00", color="blue", penwidth=2.0];
+    estado_6 [label="_ _ _\n_ X _\nO _ _"];
+    estado_0 -> estado_6 [label="Pos 6\nPeso: 1.00", color="blue", penwidth=2.0];
+    estado_7 [label="_ _ _\n_ X _\n_ O _"];
+    estado_0 -> estado_7 [label="Pos 7\nPeso: 1.00", color="blue", penwidth=2.0];
+    estado_8 [label="_ _ _\n_ X _\n_ _ O"];
+    estado_0 -> estado_8 [label="Pos 8\nPeso: 1.00", color="blue", penwidth=2.0];
+    estado_9 [label="O _ X\n_ X _\n_ _ _"];
+    estado_10 [label="O O X\n_ X _\n_ _ _"];
+    estado_9 -> estado_10 [label="Pos 1\nPeso: 0.50", color="orange", penwidth=2.0];
+    estado_11 [label="O _ X\nO X _\n_ _ _"];
+    estado_9 -> estado_11 [label="Pos 3\nPeso: 1.00", color="blue", penwidth=2.0];
+    estado_12 [label="O _ X\n_ X O\n_ _ _"];
+    estado_9 -> estado_12 [label="Pos 5\nPeso: 1.00", color="blue", penwidth=2.0];
+    estado_13 [label="O _ X\n_ X _\nO _ _"];
+    estado_9 -> estado_13 [label="Pos 6\nPeso: 1.00", color="blue", penwidth=2.0];
+    estado_14 [label="O _ X\n_ X _\n_ O _"];
+    estado_9 -> estado_14 [label="Pos 7\nPeso: 1.00", color="blue", penwidth=2.0];
+    estado_15 [label="O _ X\n_ X _\n_ _ O"];
+    estado_9 -> estado_15 [label="Pos 8\nPeso: 1.00", color="blue", penwidth=2.0];
+}
