@@ -5,7 +5,7 @@
 ##  Descripción del Proyecto
 
 Este proyecto implementa el juego clásico **Tik Tak Toe (Totito)** con un sistema de **aprendizaje supervisado**. La Inteligencia Artificial aprende de cada partida, ajustando sus pesos para mejorar su estrategia con el tiempo. El sistema utiliza estructuras de datos propias (sin usar listas/arrays nativas) y almacena el historial en un **Árbol B** configurable.
-
+## DESCARGAR LA CAPETA TIK TAK TOE Y ABRIRLA EN CUALQUIER EDITOR DE TEXTO
 ###  Características Principales
 
 - ✅ **Interfaz gráfica moderna** con Tkinter
